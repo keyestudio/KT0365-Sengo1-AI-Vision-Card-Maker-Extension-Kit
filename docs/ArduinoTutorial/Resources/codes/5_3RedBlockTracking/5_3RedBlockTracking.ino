@@ -96,7 +96,7 @@ void loop() {
     } else if (x >= 80) {
       //the car turns right
       car_right();
-    } else if (w <= 15 && h <= 15) {
+    } else if (w <= 30 && h <= 30) {
       car_forward();
     } else if (w >= 70 && h >= 70) {
       car_back();
@@ -128,17 +128,17 @@ void car_back() {
 //the car turns left
 void car_left() {
   digitalWrite(ML, HIGH);
-  analogWrite(ML_PWM, 165);
+  analogWrite(ML_PWM, 170);
   digitalWrite(MR, LOW);
-  analogWrite(MR_PWM, 90);
+  analogWrite(MR_PWM, 70);
 }
 
 //the car turns right
 void car_right() {
   digitalWrite(ML, LOW);
-  analogWrite(ML_PWM, 90);
+  analogWrite(ML_PWM, 70);
   digitalWrite(MR, HIGH);
-  analogWrite(MR_PWM, 165);
+  analogWrite(MR_PWM, 170);
 }
 
 //the car stops

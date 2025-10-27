@@ -1,67 +1,66 @@
-================
-MicroPython教程
-================
+======================
+MicroPython Tutorial
+======================
 
-1.代码和库文件下载
-==================
-
-.. toctree::
-    :maxdepth: 1
-
-    资料下载
-
-
-2.Thonny基础教程
-=================
-
-如果你是新手，请一定要看Thonny基础教程，学习了这部分的教程你可以免去很多错误的出现。
+1.Download code and library files
+===================================
 
 .. toctree::
     :maxdepth: 1
 
-    MicroPythonBasicTutorial
+    1 Resources Download
 
 
-3.接线
-=======
-AI视觉模块使用的是I2C通信，所以我们只需将AI视觉模块的连接线链接到开发板的I2C接口即可。
+2.Thonny Basic Tutorial
+========================
+If you are a beginner, please be sure to read the Thonny basic tutorial. By learning this part of the tutorial, you can avoid many mistakes.
 
 .. toctree::
     :maxdepth: 1
 
-    接线
+    2 MicroPython Basic Tutorial
+
+
+3.Wiring
+==========
+The AI vision module uses I2C communication, so we only need to connect the connection line of the AI vision module to the I2C interface of the development board.
+
+.. toctree::
+    :maxdepth: 1
+
+    3 Wiring
 
 
 
-4.AI视觉模块基础课程
-====================
-基础教程中是AI视觉模块的独立教程，主要是如何使用MicroPython代码控制AI视觉模块的各项功能。本代码使用的是Pico开发板。
+4.AI Vision Module Fundamentals Course
+========================================
+The basic tutorial is an independent tutorial for the AI vision module, mainly on how to use MicroPython code to control the various functions of the AI vision module. This code uses the Pico development board.
 
 .. toctree::
     :maxdepth: 1
    
-    4.1 识别颜色
-    4.2 色块检测
-    4.3 球体识别
-    4.4 线条检测
-    4.5 卡片识别
-    4.6 人体识别
-    4.7 人脸识别
-    4.8 二维码 识别
+    4.1 Color Recognition
+    4.2 Color Block Detection
+    4.3 Ball Recognition
+    4.4 Line Detection
+    4.5 Card Recognition
+    4.6 Body Detection
+    4.7 Face Recognition
+    4.8 QR Code Recognition
 
 
-5.AI视觉模块结合KS3027小车课程
-==============================
-本教程是基于Pico开发板对AI视觉模块如何使用进行演示。
+5.AI vision module combined with KS3027 car course
+====================================================
+This tutorial is based on the Pico development board to demonstrate how to use the AI vision module.
 
 .. toctree::
     :maxdepth: 1
 
-    将AI视觉模块安装到小车上
-    5.1 人脸解锁
-    5.2 卡片控制小车
-    5.3 色块追踪小车
-    5.4 二维码控制车灯
-    5.5 智能投石车
-    5.6 红蓝颜色分拣车
+    Product Installation
+    5.1 Face Unlock
+    5.2 Card Control Car
+    5.3 Color Block Following Car
+    5.4 QR Code Control Light
+    5.5 Smart Stone Thrower
+    5.6 Red and Blue Sorting Car
 

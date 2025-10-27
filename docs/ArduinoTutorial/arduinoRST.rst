@@ -1,66 +1,65 @@
-=============
-Arduino教程
-=============
-
-1.代码和库文件下载
 ==================
-.. toctree::
-    :maxdepth: 1
-
-    资料下载
-
-
-2.驱动安装（选读）
+Arduino Tutorial
 ==================
-本部分非必读部分，仅在开发板无法被电脑识别USB端口时使用，如果已经识别可直接跳过！！！
 
-（注意：如果主板在Arduiino或kidsblock课程无法被识别，请先检查主板是否连接到位并且连接电脑其他USB端口重新测试，如果依旧不行再开始以下驱动安装课程）
-
-.. toctree::
-    :maxdepth: 1
-	
-    驱动安装 
-	
-3.Arduino IDE 基础教程
-=======================
-
-如果你是新手，请一定要看Arduino IDE基础教程，学习了这部分的教程你可以免去很多错误的出现。
-
+1.Download code and library files
+===================================
 .. toctree::
     :maxdepth: 1
 
-    arduinoBasicTutorial
+    1 Resources Download
 
+2.Driver Installation (Optional)
+==================================
+This section is not mandatory and is only used when the USB port cannot be recognized by the computer on the development board. If it is already recognized, it can be skipped directly!!!
 
-4.AI视觉模块基础课程
-====================
-基础教程中是AI视觉模块的独立教程，主要是如何使用Arduino C代码控制AI视觉模块的各项功能。本代码使用的是Nano开发板，其他开发板使用Arduino IDE控制的原理类似可以做完参考。
+(Note: If the main board cannot be recognized in Arduino or kidsblock projects, please check whether the board is connected properly, or try other USB port on your computer. If it still does not work, follow these steps to install driver.)
 
 .. toctree::
     :maxdepth: 1
-   
-    接线
-    4.1 识别颜色
-    4.2 色块检测
-    4.3 球体识别
-    4.4 线条检测
-    4.5 卡片识别
-    4.6 人体检测
-    4.7 人脸识别
-    4.8 二维码 识别
 
+    2 Driver Installation
 
-5.AI视觉模块结合KS0543小车课程
+3.Arduino IDE Basic Tutorial
 ==============================
-本教程是基于Nano开发板对AI视觉模块使用Arduino IDE如何使用进行演示。
+
+If you are a beginner, please be sure to read the Arduino IDE Basic Tutorial. By learning this part of the tutorial, you can avoid many errors.
 
 .. toctree::
     :maxdepth: 1
 
-    将AI视觉模块安装到小车上
-    5.1 人脸解锁
-    5.2 卡片控制小车
-    5.3 色块追踪小车
-    5.4 二维码控制车灯
-    5.5 智能投石车
-    5.6 红蓝颜色分拣车
+    3 Arduino Basic Tutorial
+
+4.AI Vision Module Fundamentals Course
+========================================
+The basic tutorial is an independent tutorial for the AI vision module, mainly on how to use Arduino C code to control the various functions of the AI vision module. This code uses the Nano development board, and the principle of Arduino IDE control for other development boards is similar, which can be used as a reference.
+
+.. toctree::
+    :maxdepth: 1
+    
+    4.0 Wiring
+    4.1 Color Recognition
+    4.2 Color Block Detection
+    4.3 Ball Recognition
+    4.4 Line Detection
+    4.5 Card Recognition
+    4.6 Body Detection
+    4.7 Face Recognition
+    4.8 QR Code Recognition
+
+
+5.AI vision module combined with KS0543 car course
+====================================================
+This tutorial is based on the Nano development board and demonstrates how to use the Arduino IDE for AI vision modules.
+
+.. toctree::
+    :maxdepth: 1
+
+    Product Installation
+    5.1 Face Unlock
+    5.2 Card Control Car
+    5.3 Color Block Following Car
+    5.4 QR Code Control Light
+    5.5 Smart Stone Thrower
+    5.6 Red and Blue Sorting Car
+
