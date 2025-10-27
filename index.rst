@@ -1,11 +1,13 @@
 
 .. toctree::
    :maxdepth: 3
-   :caption: keyestudio docs
+   :caption: keyestudio KT0365
 
    README.md
-   docs/keyestudio/index
-
+   docs/Product Introduction
+   docs/ArduinoTutorial/arduinoRST
+   docs/KidsBlockTutorial/KidsBlockRST
+   docs/MicroPythonTutorial/MicroPythonRST
 
 
 
